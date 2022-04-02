@@ -1,0 +1,52 @@
+body{
+    display: flex;
+    background-color:black;
+    font-family: sans-serif;
+    justify-content: center;
+
+}
+
+.hoja{
+  width: 800px;
+  height: 1450px;
+  background: linear-gradient(#116eb9, #f0f2f3);
+  padding: 20px;
+
+}
+
+.hoja img{
+  display:flex;
+  width: 250px;
+  height: 250px;
+
+}
+
+.encabezado{
+display: flex;
+}
+
+.textoprincipal{
+  display: flex;
+  width: 550px;
+  height: 250px;
+  background-color: #061775;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.resumen{
+  text-align: justify;
+}
+
+a:link {
+    color: blue;
+  }
+
+a:visited{
+    color:rgb(192, 20, 20);
+}
+
+a:hover {
+    border-bottom: 1px solid;
+    background-color: rgb(193, 219, 219);
+  }
