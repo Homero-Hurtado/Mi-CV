@@ -15,7 +15,7 @@ body{
 }
 
 .header{
-  height: 215px;
+  height: 210px;
   padding:40px 50px;
   color:white;
   text-align: center;
@@ -28,7 +28,7 @@ body{
   max-width: 1000px;
   min-height: 1000px;
   background-color: #ffffff;
-  margin: 50px;
+/*   margin: 80px; */
   box-shadow: 0 35px 55px rgba(0,0,0,0.1);
 }
 
@@ -64,34 +64,34 @@ body{
  }
 
 .header img{
-  width: 150px;
-  height: 150px;
+  width: 130px;
+  height: 130px;
   border-radius: 50%;
 }
 
 .tittleProfile{
   text-transform: uppercase;
-  padding-top: 20px;
+  padding-top: 10px;
 }
 
 /* Personal information */
 
 .personalInformation{
-  padding: 70px 50px 10px 50px;
+  padding: 60px 50px 10px 50px;
   text-align: center;
 } 
 
 .personalInformation article{
   font-size: 15px;
   position: relative;
-  text-align: center;
-  padding: 15px 0px 20px 0px;
+  text-align: justify;
+  padding: 5px 0px 5px 0px;
 }
 
 .btns{
   display: flex;
   justify-content: center;
-  padding: 10px;
+  padding: 5px;
 }
  
 .btns button{
@@ -120,21 +120,23 @@ body{
   
 .education {
   text-align: center;
-  padding: 20px 0;
+  padding: 5px 0;
 } 
   
 .elementsEducation{
   text-align: start;
   box-shadow: 1px 1px 7px #555;
-} .elementsEducation h3{
-  padding: 15px 15px 0px 15px;
+} 
+
+.elementsEducation h3{
+  padding: 10px 15px 0px 15px;
   color: #ffffff;
   background-color: #424242;
   color:#22b1a7;
 }
   
 .elementsEducation h4{
-  padding: 0px 15px 15px 15px;
+  padding: 0px 15px 10px 15px;
   color: #ffffff;
   background-color: #424242;
   margin-bottom: 10px;
@@ -172,7 +174,7 @@ body{
 
 .experience{
   text-align: center;
-  padding-top: 80px;
+  padding-top: 70px;
 }
 
 .container-experience{
@@ -187,7 +189,7 @@ body{
 }
 
 .elements h3{
-  padding: 15px;
+  padding: 5px 15px;
   color: #22b1a7;
   background-color: #424242;
 }
@@ -219,13 +221,13 @@ li{
 
 .rightDivider{
   position: relative;
-  padding: 20px 0px 0px 15px;
+  padding: 10px 0px 0px 15px;
   border-top:solid 1px #b6b6b8;
 }
 
 .leftDivider{
   position: relative;
-  padding: 20px 15px 0px 0px;
+  padding: 10px 15px 0px 0px;
   border-top:solid 1px #b6b6b8;
 }
 
@@ -262,7 +264,7 @@ text-transform: uppercase;
 }
 
 .Apps, .portfolio, .certificate{
-  padding: 10px 15px;
+  padding: 5px 15px;
   font-weight: 600; 
   color: #22b1a7;
 }
@@ -277,13 +279,13 @@ text-transform: uppercase;
 }
 
 .elementSkills h3{
-  padding: 15px 15px 0px 15px;
+  padding: 10px 15px 0px 15px;
   background-color: #00747a;
   color: #ffffff;
 }
 
 .elementSkills h4{
-  padding: 0px 15px 15px 15px;
+  padding: 0px 15px 10px 15px;
   color:#c4c4c7;
   background-color: #00747a;
   margin-bottom: 10px;
